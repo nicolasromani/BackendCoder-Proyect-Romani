@@ -24,8 +24,6 @@ class CartManager {
 
             arrayCart.push(newCart);
 
-            //modo prueba
-            //console.log(arrayCart);
             await this.saveCart(arrayCart);
 
         } catch (error) {
@@ -90,7 +88,6 @@ class CartManager {
             }
         }
 
-        //arrayCarts.push(arrayProduct);
         await this.saveCart(arrayCarts);
         return arrayProduct;
     }

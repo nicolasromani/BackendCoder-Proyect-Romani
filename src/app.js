@@ -16,12 +16,6 @@ app.use(express.json());
 app.use("/api/products", productRouter);
 app.use("/api/carts", cartRouter);
 
-
-
-
-
-
-
 //Coloco siempre el listen al final
 app.listen(PUERTO, () =>{
     console.log(`Escuchando en el http://localhost:${PUERTO}`);
