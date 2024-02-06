@@ -63,6 +63,10 @@
       {
         "product": 2,
         "quantity": 3
+      },
+      {
+        "product": 3,
+        "quantity": 1
       }
     ],
     "id": 8
