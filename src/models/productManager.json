@@ -1,50 +1,5 @@
 [
   {
-    "id": 1,
-    "title": "Playadito",
-    "description": "Yerba Mate",
-    "price": 3000,
-    "thumbnail": "No-image",
-    "code": "abc1",
-    "stock": 10
-  },
-  {
-    "id": 2,
-    "title": "Leche Serenisima",
-    "description": "Lacteos",
-    "price": 2000,
-    "thumbnail": "No-image",
-    "code": "abc2",
-    "stock": 20
-  },
-  {
-    "id": 3,
-    "title": "Cafe Martinez",
-    "description": "Infuciones",
-    "price": 7000,
-    "thumbnail": "No-image",
-    "code": "abc3",
-    "stock": 30
-  },
-  {
-    "id": 4,
-    "title": "Jugo Saldan",
-    "description": "Jugos",
-    "price": 2000,
-    "thumbnail": "No-image",
-    "code": "abc4",
-    "stock": 40
-  },
-  {
-    "id": 5,
-    "title": "Salchichas Paladini",
-    "description": "Embutidos",
-    "price": 500,
-    "thumbnail": "No-image",
-    "code": "abc5",
-    "stock": 50
-  },
-  {
     "id": 6,
     "title": "Queso Crema Cremon",
     "description": "Lacteos",
@@ -52,15 +7,6 @@
     "thumbnail": "No-image",
     "code": "abc6",
     "stock": 60
-  },
-  {
-    "id": 7,
-    "title": "Fideos 308",
-    "description": "Fideos",
-    "price": 2000,
-    "thumbnail": "No-image",
-    "code": "abc7",
-    "stock": 70
   },
   {
     "id": 8,
@@ -72,21 +18,36 @@
     "stock": 80
   },
   {
-    "id": 9,
-    "title": "Arroz Luchetti",
-    "description": "Arroz",
-    "price": 1800,
-    "thumbnail": "No-image",
+    "title": "Gaseosa",
+    "description": "Bebidas",
     "code": "abc9",
-    "stock": 90
+    "price": "2000",
+    "stock": "4",
+    "category": "almacen",
+    "status": true,
+    "thumbnail": [],
+    "id": 9
   },
   {
-    "id": 10,
-    "title": "Pepas Membrillo TRIO",
-    "description": "Galletitas dulces",
-    "price": 1000,
-    "thumbnail": "No-image",
+    "title": "La Serenisima",
+    "description": "leche",
     "code": "abc10",
-    "stock": 100
+    "price": "1200",
+    "stock": "10",
+    "category": "lacteos",
+    "status": true,
+    "thumbnail": [],
+    "id": 10
+  },
+  {
+    "title": "Coca",
+    "description": "gaseosa",
+    "code": "abc4",
+    "price": "3500",
+    "stock": "15",
+    "category": "bebidas",
+    "status": true,
+    "thumbnail": [],
+    "id": 11
   }
 ]
